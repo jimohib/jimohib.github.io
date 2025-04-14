@@ -1,0 +1,81 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 215 91% 5%;
+    --foreground: 210 17% 98%;
+
+    --card: 215 35% 12%;
+    --card-foreground: 210 17% 98%;
+
+    --popover: 215 35% 12%;
+    --popover-foreground: 210 17% 98%;
+
+    --primary: 212 100% 67%;
+    --primary-foreground: 215 91% 5%;
+
+    --secondary: 255 75% 69%;
+    --secondary-foreground: 215 91% 5%;
+
+    --muted: 215 25% 27%;
+    --muted-foreground: 217.9 13.4% 59.4%;
+
+    --accent: 215 25% 27%;
+    --accent-foreground: 210 17% 98%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 17% 98%;
+
+    --border: 215 25% 27%;
+    --input: 215 25% 27%;
+    --ring: 212 100% 67%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-github-dark text-github-text;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+@media (max-width: 640px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.animate-delay-100 {
+  animation-delay: 100ms;
+}
+
+.animate-delay-200 {
+  animation-delay: 200ms;
+}
+
+.animate-delay-300 {
+  animation-delay: 300ms;
+}
+
+.animate-delay-400 {
+  animation-delay: 400ms;
+}
+
+.animate-delay-500 {
+  animation-delay: 500ms;
+}

@@ -63,14 +63,15 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				github: {
-					dark: '#0d1117',
-					card: '#161b22',
-					accent: '#58a6ff',
+				theme: {
+					primary: '#33C3F0',
 					secondary: '#7b61ff',
-					border: '#30363d',
-					text: '#f0f6fc',
-					muted: '#8b949e',
+					accent: '#4ECDC4',
+					background: '#FFFFFF',
+					card: '#F6F6F7',
+					border: '#E1E1E1',
+					text: '#333333',
+					muted: '#888888',
 				}
 			},
 			borderRadius: {

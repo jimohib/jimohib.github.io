@@ -59,22 +59,22 @@ const Contact = () => {
             <ContactCard
               icon={<Mail className="h-5 w-5 text-theme-primary" />}
               title="Email"
-              contact="developer@example.com"
+              contact="ioj@andrew.cmu.edu"
             />
             <ContactCard
               icon={<Linkedin className="h-5 w-5 text-theme-primary" />}
               title="LinkedIn"
-              contact="linkedin.com/in/username"
+              contact="linkedin.com/in/jimohibrahim24"
             />
             <ContactCard
               icon={<Twitter className="h-5 w-5 text-theme-primary" />}
               title="Twitter"
-              contact="@twitter_username"
+              contact="@jhmohib"
             />
             <ContactCard
               icon={<Globe className="h-5 w-5 text-theme-primary" />}
               title="Website"
-              contact="yourwebsite.dev"
+              contact="jhmpy.github.io"
             />
           </div>
 

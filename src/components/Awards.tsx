@@ -38,39 +38,25 @@ const AwardItem = ({ icon, title, issuer, date, description }: AwardProps) => {
 const Awards = () => {
   const awards = [
     {
-      icon: <Trophy className="h-6 w-6" />,
-      title: "Outstanding Researcher Award",
-      issuer: "International Computing Society",
-      date: "2023",
-      description: "Recognized for contributions to distributed systems research and publications in top-tier journals."
-    },
-    {
-      icon: <Award className="h-6 w-6" />,
-      title: "Best Paper Award",
-      issuer: "ACM Conference on Software Engineering",
-      date: "2022",
-      description: "Awarded for the paper 'Novel Approaches to Distributed Computing Optimization'."
-    },
-    {
-      icon: <Medal className="h-6 w-6" />,
-      title: "Open Source Contributor of the Year",
-      issuer: "GitHub Open Source Awards",
-      date: "2022",
-      description: "Recognized for significant contributions to major open source projects including over 500 commits."
-    },
-    {
       icon: <Star className="h-6 w-6" />,
-      title: "Dean's List for Academic Excellence",
-      issuer: "Advanced Technology University",
-      date: "2021",
-      description: "Achieved top 5% academic standing across all doctoral candidates in the Computer Science department."
+      title: "HRI Conference Grant Award",
+      issuer: "Association of Computing Machinery (ACM) SIGAI",
+      date: "2025",
+      description: "Attended, participated and presented research at the Human-Robot Interaction conference held in Melbourne, Australia."
     },
     {
       icon: <GraduationCap className="h-6 w-6" />,
-      title: "Distinguished Teaching Award",
-      issuer: "Computer Science Department",
-      date: "2020",
-      description: "Recognized for excellence in teaching and mentoring undergraduate students in programming courses."
+      title: "Masters Degree Scholarship Award",
+      issuer: "Mastercard Foundation Scholarship",
+      date: "2023",
+      description: "Awarded the mastercard foundation scholarship to pursue a masters degree."
+    },
+    {
+      icon: <Award className="h-6 w-6" />,
+      title: "Recognition Best School Representative",
+      issuer: "International Mathematics Olympiad (IMO)",
+      date: "2015",
+      description: "Recognised by the school for exemplary performance in the competition."
     }
   ];
 

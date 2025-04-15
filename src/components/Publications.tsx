@@ -20,47 +20,36 @@ interface Publication {
 const publicationsData: Publication[] = [
   {
     id: 1,
-    title: "Advanced Techniques for Distributed Computing in Cloud Environments",
-    journal: "Journal of Cloud Computing Research",
-    authors: "Your Name, Collaborator One, Collaborator Two",
-    year: 2023,
-    abstract: "This paper presents novel techniques for optimizing distributed computing tasks in cloud environments, improving efficiency by 45% compared to traditional approaches.",
-    tags: ["Distributed Computing", "Cloud", "Performance Optimization"],
-    url: "https://example.com/publication1",
-    doi: "10.1234/jccr.2023.01.123"
+    title: "Poster: Culturally Sensitive Social Robotics for Africa",
+    journal: "Cultural Robotics: Diversified Sustainable Practices Workshop at IEEE/ACM HRI Conference",
+    authors: "A. Akinade, D. Barros, M. Danso, Y. Haile, E. Birhan, B. Shimelis Girma, C. Osano, P. Ranchod, M. Richard, B. Rosman, I. Jimoh, T. Taye Tefferi, D. Vernon",
+    year: 2025,
+    abstract: "This research aim to equip robots with the ability to interact sensitively and politely with people in Africa using spatial, non-verbal, and verbal modes of communication.",
+    tags: ["Cultural Sensitivity", "Robot Interaction", "Robot Behavior"],
+    url: "https://cssr4africa.github.io/posters/2025_Cultural_Robotics_Workshop_Akinade_et_al_poster.pdf",
+    doi: ""
   },
   {
     id: 2,
-    title: "Machine Learning Models for Early Disease Detection in Medical Imaging",
-    journal: "International Journal of Medical Informatics",
-    authors: "Your Name, Medical Researcher, Data Scientist",
-    year: 2022,
-    abstract: "We developed and validated machine learning models for detecting early signs of disease in medical images with 92% accuracy, significantly improving upon existing methods.",
-    tags: ["Machine Learning", "Healthcare", "Medical Imaging"],
-    url: "https://example.com/publication2",
-    doi: "10.1234/ijmi.2022.05.678"
+    title: "Abstract: Behavior Trees for Culturally Sensitive Social Robots: African Culture Case Study",
+    journal: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+    authors: "I. Jimoh, H. Equbay, C. Osano, T. Tefferi, D. Vernon",
+    year: 2024,
+    abstract: "This paper explores the use of behavior trees to control the behavior of culturally sensitive social robots.",
+    tags: ["Behavior Trees", "Social Robotics", "Cultural Sensitivity"],
+    url: "https://cssr4africa.github.io/abstracts/2024_Robotics_in_Africa_Forum_IROS_Jimoh_et_al_abstract.pdf",
+    doi: ""
   },
   {
     id: 3,
-    title: "Analyzing Contribution Patterns in Major Open Source Software Projects",
-    journal: "ACM Transactions on Software Engineering",
-    authors: "Your Name, Software Analyst",
-    year: 2021,
-    abstract: "This research examines contribution patterns in open source projects, identifying key factors that influence long-term sustainability and community health.",
-    tags: ["Open Source", "Software Engineering", "Community"],
-    url: "https://example.com/publication3",
-    doi: "10.1234/acmtse.2021.03.321"
-  },
-  {
-    id: 4,
-    title: "Privacy-Preserving Methods for Collaborative Data Analysis",
-    journal: "IEEE Security and Privacy",
-    authors: "Your Name, Privacy Expert, Security Researcher",
-    year: 2021,
-    abstract: "A comprehensive analysis of methods for enabling collaborative data analysis while maintaining privacy guarantees, with implementations and performance evaluations.",
-    tags: ["Privacy", "Security", "Data Analysis"],
-    url: "https://example.com/publication4",
-    doi: "10.1234/ieeesp.2021.07.456"
+    title: "Breaking Mental Health Silence: Men from Different Cultures and Generations",
+    journal: "Case Studies in International Education, Vol. 5 No. 2",
+    authors: "Y. Underdue Murph, A. Avoka, I. Jimoh, F.Rurangwa",
+    year: 2024,
+    abstract: "A case study of men from different generations and diverse backgrounds who confront their resistance to openly discussing mental health challenges, influenced by their societal and cultural norms.",
+    tags: ["Case Study", "Mental Health", "Culture and Generation"],
+    url: "https://www.csiepub.org/index.php/csie/article/view/165",
+    doi: ""
   }
 ];
 
@@ -71,7 +60,7 @@ const Publications = () => {
       <div className="w-20 h-1 bg-github-accent mb-10 animate-fade-in"></div>
       
       <p className="text-lg mb-12 max-w-3xl animate-fade-in animate-delay-100">
-        My research contributions span multiple disciplines, with a focus on applying computational methods
+        My research contributions span multiple disciplines, with a focus artificial intelligence and robotics
         to solve complex problems in various domains.
       </p>
       

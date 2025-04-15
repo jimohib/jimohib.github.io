@@ -22,97 +22,85 @@ interface Project {
 const projectData: Project[] = [
   {
     id: 1,
-    name: "awesome-react-components",
-    description: "A curated collection of reusable React components optimized for performance and accessibility.",
-    language: "TypeScript",
-    stars: 1245,
-    forks: 348,
-    tags: ["React", "UI Library", "Components"],
-    url: "https://github.com/username/awesome-react-components",
-    demoUrl: "https://awesome-react-components.demo.com",
-    type: "software"
-  },
-  {
-    id: 2,
-    name: "node-api-starter",
-    description: "A production-ready Node.js API boilerplate with TypeScript, Express, and MongoDB integration.",
+    name: "node_modules",
+    description: "Contains core node js modules, their description, and code implementation.",
     language: "JavaScript",
-    stars: 867,
-    forks: 243,
-    tags: ["Node.js", "API", "Backend"],
-    url: "https://github.com/username/node-api-starter",
+    stars: 0,
+    forks: 0,
+    tags: ["Node.js", "Backend"],
+    url: "https://github.com/jhmpy/node-modules",
     type: "software"
   },
-  {
-    id: 3,
-    name: "data-visualization-toolkit",
-    description: "Interactive data visualization components and utilities for modern web applications.",
-    language: "TypeScript",
-    stars: 631,
-    forks: 129,
-    tags: ["Visualization", "D3.js", "Charts"],
-    url: "https://github.com/username/data-visualization-toolkit",
-    demoUrl: "https://data-vis-toolkit.demo.com",
-    type: "software"
-  },
-  {
-    id: 4,
-    name: "ml-research-framework",
-    description: "A framework for machine learning research with implementations of state-of-the-art algorithms.",
-    language: "Python",
-    stars: 578,
-    forks: 142,
-    tags: ["Machine Learning", "Research", "AI"],
-    url: "https://github.com/username/ml-research-framework",
-    type: "academic"
-  },
-  {
-    id: 5,
-    name: "distributed-computing-analysis",
-    description: "Research code and analysis tools for studying distributed computing performance patterns.",
-    language: "Python",
-    stars: 426,
-    forks: 95,
-    tags: ["Distributed Systems", "Research", "Analysis"],
-    url: "https://github.com/username/distributed-computing-analysis",
-    demoUrl: "https://distributed-computing-results.demo.com",
-    type: "academic"
-  },
-  {
-    id: 6,
-    name: "smart-form-validator",
-    description: "Lightweight form validation library with support for complex validation rules and custom error messages.",
-    language: "JavaScript",
-    stars: 492,
-    forks: 87,
-    tags: ["Forms", "Validation", "Frontend"],
-    url: "https://github.com/username/smart-form-validator",
-    demoUrl: "https://form-validator.demo.com",
-    type: "software"
-  },
-  {
-    id: 7,
-    name: "academic-citation-network",
-    description: "Tools for analyzing citation networks and research impact within academic literature.",
-    language: "R",
-    stars: 324,
-    forks: 78,
-    tags: ["Data Science", "Academic Research", "Network Analysis"],
-    url: "https://github.com/username/academic-citation-network",
-    type: "academic"
-  },
-  {
-    id: 8,
-    name: "blockchain-explorer",
-    description: "A modern blockchain explorer with support for multiple networks and real-time transaction tracking.",
-    language: "TypeScript",
-    stars: 256,
-    forks: 42,
-    tags: ["Blockchain", "Web3", "Explorer"],
-    url: "https://github.com/username/blockchain-explorer",
-    demoUrl: "https://blockchain-explorer.demo.com",
-    type: "software"
-  }
+  // {
+  //   id: 3,
+  //   name: "data-visualization-toolkit",
+  //   description: "Interactive data visualization components and utilities for modern web applications.",
+  //   language: "TypeScript",
+  //   stars: 631,
+  //   forks: 129,
+  //   tags: ["Visualization", "D3.js", "Charts"],
+  //   url: "https://github.com/username/data-visualization-toolkit",
+  //   demoUrl: "https://data-vis-toolkit.demo.com",
+  //   type: "software"
+  // },
+  // {
+  //   id: 4,
+  //   name: "ml-research-framework",
+  //   description: "A framework for machine learning research with implementations of state-of-the-art algorithms.",
+  //   language: "Python",
+  //   stars: 578,
+  //   forks: 142,
+  //   tags: ["Machine Learning", "Research", "AI"],
+  //   url: "https://github.com/username/ml-research-framework",
+  //   type: "academic"
+  // },
+  // {
+  //   id: 5,
+  //   name: "distributed-computing-analysis",
+  //   description: "Research code and analysis tools for studying distributed computing performance patterns.",
+  //   language: "Python",
+  //   stars: 426,
+  //   forks: 95,
+  //   tags: ["Distributed Systems", "Research", "Analysis"],
+  //   url: "https://github.com/username/distributed-computing-analysis",
+  //   demoUrl: "https://distributed-computing-results.demo.com",
+  //   type: "academic"
+  // },
+  // {
+  //   id: 6,
+  //   name: "smart-form-validator",
+  //   description: "Lightweight form validation library with support for complex validation rules and custom error messages.",
+  //   language: "JavaScript",
+  //   stars: 492,
+  //   forks: 87,
+  //   tags: ["Forms", "Validation", "Frontend"],
+  //   url: "https://github.com/username/smart-form-validator",
+  //   demoUrl: "https://form-validator.demo.com",
+  //   type: "software"
+  // },
+  // {
+  //   id: 7,
+  //   name: "academic-citation-network",
+  //   description: "Tools for analyzing citation networks and research impact within academic literature.",
+  //   language: "R",
+  //   stars: 324,
+  //   forks: 78,
+  //   tags: ["Data Science", "Academic Research", "Network Analysis"],
+  //   url: "https://github.com/username/academic-citation-network",
+  //   type: "academic"
+  // },
+  // {
+  //   id: 8,
+  //   name: "blockchain-explorer",
+  //   description: "A modern blockchain explorer with support for multiple networks and real-time transaction tracking.",
+  //   language: "TypeScript",
+  //   stars: 256,
+  //   forks: 42,
+  //   tags: ["Blockchain", "Web3", "Explorer"],
+  //   url: "https://github.com/username/blockchain-explorer",
+  //   demoUrl: "https://blockchain-explorer.demo.com",
+  //   type: "software"
+  // }
 ];
 
 const languageColors: Record<string, string> = {
@@ -135,12 +123,11 @@ const Projects = () => {
   return (
     <section id="projects" className="py-20 bg-black/20">
       <div className="container">
-        <h2 className="text-3xl md:text-4xl font-bold mb-3 animate-fade-in">Projects & Research</h2>
+        <h2 className="text-3xl md:text-4xl font-bold mb-3 animate-fade-in">Projects</h2>
         <div className="w-20 h-1 bg-github-accent mb-10 animate-fade-in"></div>
         
         <p className="text-lg mb-6 max-w-3xl animate-fade-in animate-delay-100">
-          Explore my portfolio of software projects and academic research. Each repository represents 
-          a problem solved or an advancement in knowledge through code and research.
+          Explore my portfolio of software projects.
         </p>
         
         <Tabs 
@@ -172,6 +159,7 @@ const Projects = () => {
         </div>
         
         <div className="mt-12 text-center animate-fade-in animate-delay-300">
+        <a href="https://github.com/jhmpy?tab=repositories" target="_blank" rel="noopener noreferrer">
           <Button 
             variant="outline" 
             className="border-github-accent text-github-accent hover:bg-github-accent/10"
@@ -180,6 +168,7 @@ const Projects = () => {
             <Github className="mr-2 h-4 w-4" />
             View All Repositories
           </Button>
+        </a>
         </div>
       </div>
     </section>

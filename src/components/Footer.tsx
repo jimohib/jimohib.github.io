@@ -12,10 +12,10 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
             <div className="flex items-center gap-2 mb-2">
-              <span className="font-bold text-theme-primary">Portfolio</span>
+              <span className="font-bold text-theme-primary">Last Updated</span>
             </div>
             <p className="text-sm text-theme-muted">
-              Showcasing code and creativity
+              April, 2025.
             </p>
           </div>
           
@@ -33,7 +33,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-gray-200 mt-6 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-theme-muted">
-          <div>© {currentYear} Developer Portfolio. All rights reserved.</div>
+          <div>© {currentYear} Ibrahim Jimoh. All rights reserved.</div>
           <div className="mt-4 md:mt-0 flex gap-4">
             <a href="#" className="hover:text-theme-primary transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-theme-primary transition-colors">Terms of Service</a>

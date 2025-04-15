@@ -19,9 +19,9 @@ const About = () => {
               <AvatarFallback>Dev</AvatarFallback>
             </Avatar>
             <div>
-              <h3 className="text-xl font-semibold mb-2">John Doe</h3>
-              <p className="text-github-muted">PhD in Computer Science</p>
-              <p className="text-github-muted">Senior Software Engineer</p>
+              <h3 className="text-xl font-semibold mb-2">Ibrahim Jimoh</h3>
+              <p className="text-github-muted">Masters in Artificial Intelligence</p>
+              <p className="text-github-muted">AI Engineer & Roboticist</p>
             </div>
           </div>
           <p className="text-lg">
@@ -47,22 +47,22 @@ const About = () => {
               <div className="grid grid-cols-2 gap-4">
                 <SkillCard
                   icon={<Code className="h-5 w-5 text-github-accent" />}
-                  title="Frontend"
+                  title="Programming"
                   skills={['React', 'TypeScript', 'Tailwind CSS', 'Next.js']}
                 />
                 <SkillCard
                   icon={<Server className="h-5 w-5 text-github-accent" />}
-                  title="Backend"
+                  title="AI"
                   skills={['Node.js', 'Express', 'Python', 'Java']}
                 />
                 <SkillCard
                   icon={<Database className="h-5 w-5 text-github-accent" />}
-                  title="Database"
+                  title="Robotics"
                   skills={['PostgreSQL', 'MongoDB', 'Redis', 'Supabase']}
                 />
                 <SkillCard
                   icon={<Brain className="h-5 w-5 text-github-accent" />}
-                  title="Research"
+                  title="Cloud Technologies"
                   skills={['Data Analysis', 'Machine Learning', 'Statistical Methods', 'Academic Writing']}
                 />
               </div>
@@ -70,20 +70,20 @@ const About = () => {
             <TabsContent value="experience">
               <div className="space-y-4">
                 <ExperienceCard 
-                  title="Senior Developer"
-                  company="Tech Innovators Inc."
+                  title="Data Scientist"
+                  company="Freelance"
                   period="2022 - Present"
                   description="Leading development of cloud-native applications and mentoring junior developers."
                 />
                 <ExperienceCard 
-                  title="Research Associate"
-                  company="University Research Lab"
+                  title="Data Analyst"
+                  company="Malhub Technologies"
                   period="2021 - Present"
                   description="Conducting research in AI applications for healthcare, resulting in 3 published papers."
                 />
                 <ExperienceCard 
-                  title="Full-Stack Developer"
-                  company="Digital Solutions Ltd."
+                  title="Software Engineer (Contract)"
+                  company="Optimus Bank"
                   period="2020 - 2022"
                   description="Built and maintained modern web applications using React and Node.js."
                 />
@@ -98,14 +98,14 @@ const About = () => {
                   description="Dissertation: 'Advanced Algorithms for Distributed Computing Systems'"
                 />
                 <ExperienceCard 
-                  title="M.S. in Computer Science"
-                  company="Tech University"
+                  title="M.S. in Artificial Intelligence"
+                  company="Carnegie Mellon University"
                   period="2016 - 2018"
                   description="Specialized in artificial intelligence and distributed systems."
                 />
                 <ExperienceCard 
-                  title="B.S. in Software Engineering"
-                  company="State University"
+                  title="B.S. in Computer Engineering"
+                  company="Federal University of Technology"
                   period="2012 - 2016"
                   description="Graduated with honors. Active in coding competitions and hackathons."
                 />

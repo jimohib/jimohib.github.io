@@ -60,7 +60,7 @@ const Publications = () => {
       <div className="w-20 h-1 bg-github-accent mb-10 animate-fade-in"></div>
       
       <p className="text-lg mb-12 max-w-3xl animate-fade-in animate-delay-100">
-        My research contributions span multiple disciplines, with a focus artificial intelligence and robotics
+        My research contributions span multiple disciplines, with a focus in Artificial Intelligence and Robotics
         to solve complex problems in various domains.
       </p>
       

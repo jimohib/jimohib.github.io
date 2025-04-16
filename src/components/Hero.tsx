@@ -28,7 +28,7 @@ const Hero = () => {
     <div className="flex flex-col items-center justify-center min-h-[90vh] relative text-center px-6 bg-white">      
       <Avatar className="w-32 h-32 border-4 border-theme-accent mb-8 shadow-lg animate-fade-in">
         <AvatarImage src="/profile_pic.jpg" alt="Profile Picture" />
-        <AvatarFallback>JD</AvatarFallback>
+        <AvatarFallback>IJ</AvatarFallback>
       </Avatar>
       
       <h1 className="text-4xl md:text-6xl font-bold mb-6 animate-fade-in">

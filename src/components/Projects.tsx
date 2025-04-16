@@ -22,7 +22,7 @@ interface Project {
 const projectData: Project[] = [
   {
     id: 1,
-    name: "node_modules",
+    name: "Node Modules",
     description: "Contains core node js modules, their description, and code implementation.",
     language: "JavaScript",
     stars: 0,
@@ -31,41 +31,41 @@ const projectData: Project[] = [
     url: "https://github.com/jhmpy/node-modules",
     type: "software"
   },
-  // {
-  //   id: 3,
-  //   name: "data-visualization-toolkit",
-  //   description: "Interactive data visualization components and utilities for modern web applications.",
-  //   language: "TypeScript",
-  //   stars: 631,
-  //   forks: 129,
-  //   tags: ["Visualization", "D3.js", "Charts"],
-  //   url: "https://github.com/username/data-visualization-toolkit",
-  //   demoUrl: "https://data-vis-toolkit.demo.com",
-  //   type: "software"
-  // },
-  // {
-  //   id: 4,
-  //   name: "ml-research-framework",
-  //   description: "A framework for machine learning research with implementations of state-of-the-art algorithms.",
-  //   language: "Python",
-  //   stars: 578,
-  //   forks: 142,
-  //   tags: ["Machine Learning", "Research", "AI"],
-  //   url: "https://github.com/username/ml-research-framework",
-  //   type: "academic"
-  // },
-  // {
-  //   id: 5,
-  //   name: "distributed-computing-analysis",
-  //   description: "Research code and analysis tools for studying distributed computing performance patterns.",
-  //   language: "Python",
-  //   stars: 426,
-  //   forks: 95,
-  //   tags: ["Distributed Systems", "Research", "Analysis"],
-  //   url: "https://github.com/username/distributed-computing-analysis",
-  //   demoUrl: "https://distributed-computing-results.demo.com",
-  //   type: "academic"
-  // },
+  {
+    id: 3,
+    name: "Deepfake Voice Detection with Deep Learning for Fraud Prevention",
+    description: "",
+    language: "Python",
+    stars: 0,
+    forks: 0,
+    tags: ["Deepfake", "Deep learning", "Fraud"],
+    url: "https://github.com/jhmpy/deepfake_voice_detection",
+    demoUrl: "/",
+    type: "software"
+  },
+  {
+    id: 4,
+    name: "Deep Reinforcement Learning-Based Mobile Robot Navigation in Social Spaces",
+    description: "A deep reinforcement learning framework for mobile robot navigation that jointly models both human-robot and human-human interactions.",
+    language: "Python",
+    stars: 0,
+    forks: 0,
+    tags: ["Deep Learning", "Research", "AI", "Robotics"],
+    url: "https://github.com/jhmpy/idl24_project",
+    type: "academic"
+  },
+  {
+    id: 5,
+    name: "LLM-Based Investment Advisor using Retrival Augmented Generation (RAG)",
+    description: "A scalable llm-powered investment advisory platform that democratizes financial advising and guidance, including risk profiling, asset allocation, portfolio forecasting, and personalized recommendations.",
+    language: "Python",
+    stars: 0,
+    forks: 0,
+    tags: ["NLP", "Research", "LLM", "Investment", "Financial Literacy"],
+    url: "https://github.com/jhmpy/AI-Investment-Advisor-Capstone",
+    demoUrl: "/",
+    type: "academic"
+  },
   // {
   //   id: 6,
   //   name: "smart-form-validator",
@@ -78,17 +78,17 @@ const projectData: Project[] = [
   //   demoUrl: "https://form-validator.demo.com",
   //   type: "software"
   // },
-  // {
-  //   id: 7,
-  //   name: "academic-citation-network",
-  //   description: "Tools for analyzing citation networks and research impact within academic literature.",
-  //   language: "R",
-  //   stars: 324,
-  //   forks: 78,
-  //   tags: ["Data Science", "Academic Research", "Network Analysis"],
-  //   url: "https://github.com/username/academic-citation-network",
-  //   type: "academic"
-  // },
+  {
+    id: 7,
+    name: "Synchronizing Multimodal Behaviors of a Robot:The Eva Robot Head",
+    description: "Synchronized a robots multimodal behavior including speech, gesture, facial expression and implemented facial expression recognition and mimicking with neural networks.",
+    language: "Python",
+    stars: 0,
+    forks: 0,
+    tags: ["Multimuodal", "Robot Head", "Neural Network"],
+    url: "https://github.com/jhmpy/humanoid_robotics_and_cognition_project",
+    type: "academic"
+  },
   // {
   //   id: 8,
   //   name: "blockchain-explorer",

@@ -15,29 +15,29 @@ const About = () => {
         <div className="space-y-6 animate-fade-in animate-delay-100">
           <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 mb-6">
             <Avatar className="w-24 h-24 border-2 border-github-accent">
-              <AvatarImage src="/profile_pic.jpg" alt="Profile Picture" />
+              <AvatarImage src="/photo1.jpg" alt="Profile Picture" />
               <AvatarFallback>Dev</AvatarFallback>
             </Avatar>
-            <div>
+            {/* <div>
               <h3 className="text-xl font-semibold mb-2">Ibrahim Jimoh</h3>
               <p className="text-github-muted">Masters in Artificial Intelligence</p>
               <p className="text-github-muted">AI Engineer and Roboticist</p>
-            </div>
+            </div> */}
           </div>
           <p className="text-lg">
             Hi there! Welcome to my website!
           </p>
           <p className="text-lg">
-            I am a Masters student in Artificial Intelligence at Carnegie Mellon University. I am a robotics enthusiast
+            I am a Masters student in Artificial Intelligence at Carnegie Mellon University. I am a Robotics enthusiast
             researcher passionate about creating intelligent systems that can think, move, and interact like humans. 
-            My journey into robotics began with a fascination for the science fiction—yes, Iron Man played a role—but it quickly 
+            My journey into robotics began with a fascination for the science marvel fiction—yes, Iron Man played a role—but it quickly 
             evolved into a deeper curiosity about how machines can learn, adapt, and solve real-world problems.
           </p>
           <p className="text-lg">
           Currently, I am focused on Human-Robot Interaction (HRI), exploring how robots can understand, collaborate with, and
           support people in meaningful and culturally aware ways. I've had the opportunity to present my research at international 
           conferences and work with cutting-edge platforms like ROS and the Pepper robot. I am driven by a belief that robotics 
-          can be a force for good—especially when designed inclusively and thoughtfully.
+          can be a force for good especially when designed inclusively and thoughtfully.
           </p>
           <p className="text-lg">
           When I'm not knee-deep in code or research, you'll find me enjoying great conversation, learning something new, 
@@ -108,7 +108,7 @@ const About = () => {
                   title="Data Scientist"
                   company="Freelance"
                   period="2024 - Present"
-                  description="Designing and implementing predictive models and machine learning algorithms."
+                  description="Conducting analysis, designing and implementing predictive models and machine learning algorithms with companies data to generate actionable insights."
                 />
                 <ExperienceCard 
                   title="Data Analyst"
@@ -120,7 +120,7 @@ const About = () => {
                   title="Software Engineer (Contract)"
                   company="Optimus Bank"
                   period="Jan 2023 - Jun 2023"
-                  description="Project lead, designed and developed API for customer support bot"
+                  description="Project lead, designed and developed API for a customer support bot"
                 />
               </div>
             </TabsContent>
@@ -130,13 +130,13 @@ const About = () => {
                   title="M.S. in Artificial Intelligence"
                   company="Carnegie Mellon University"
                   period="2023 - 2025"
-                  description="Specialized in artificial intelligence and robotics."
+                  description="Specialization in Artificial Intelligence and Robotics."
                 />
                 <ExperienceCard 
                   title="B.Eng. in Computer Engineering"
                   company="Federal University of Technology Minna"
                   period="2015 - 2021"
-                  description="Specialized in software and hardware engineering."
+                  description="Specialization in Software and Hardware Engineering."
                 />
               </div>
             </TabsContent>

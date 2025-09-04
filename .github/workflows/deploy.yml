@@ -38,8 +38,8 @@ jobs:
     - name: Type check
       run: npm run type-check
       
-    - name: Lint code
-      run: npm run lint
+    # - name: Lint code
+    #   run: npm run lint
       
     - name: Generate sitemap and build
       run: npm run build

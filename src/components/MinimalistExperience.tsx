@@ -70,7 +70,7 @@ const MinimalistExperience: React.FC = () => {
                 <Button
                   variant="outline"
                   className="border-[rgb(10,93,128)] text-[rgb(10,93,128)] hover:bg-[rgb(10,93,128)] hover:text-white"
-                  onClick={() => window.open(`${process.env.PUBLIC_URL}/Ibrahim_Jimoh_CV.pdf`, '_blank')}
+                  onClick={() => window.open(`${import.meta.env.BASE_URL}Ibrahim_Jimoh_CV.pdf`, '_blank')}
                 >
                   <ExternalLink className="mr-2 h-4 w-4" />
                   View Complete Experience in CV

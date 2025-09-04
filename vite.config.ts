@@ -4,7 +4,7 @@ import { VitePWA } from 'vite-plugin-pwa';
 import path from "path";
 
 export default defineConfig(({ mode }) => ({
-  base: "/",
+  base: "/jimohib.github.io/",
   server: {
     host: "::",
     port: 8080,

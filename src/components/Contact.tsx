@@ -59,7 +59,7 @@ const Contact = () => {
             <ContactCard
               icon={<Mail className="h-5 w-5 text-theme-primary" />}
               title="Email"
-              contact="ioj@andrew.cmu.edu"
+              contact="ibjhmoh@gmail.com"
             />
             <ContactCard
               icon={<Linkedin className="h-5 w-5 text-theme-primary" />}
@@ -74,14 +74,14 @@ const Contact = () => {
             <ContactCard
               icon={<Globe className="h-5 w-5 text-theme-primary" />}
               title="Website"
-              contact="jhmpy.github.io"
+              contact="jimohib.github.io"
             />
           </div>
 
           <div className="bg-gray-50 border border-gray-200 rounded-lg p-6">
             <h4 className="font-medium mb-4">Let's collaborate!</h4>
             <p className="text-sm text-theme-muted mb-4">
-              I'm always open to discussing new projects, creative ideas or opportunities to be part of your vision.
+              I'm always open to discussing new projects, research, creative ideas or opportunities to be part of your vision.
             </p>
             <p className="text-sm text-theme-muted">
               Whether you have a question or just want to say hi, I'll try my best to get back to you!

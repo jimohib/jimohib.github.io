@@ -22,13 +22,24 @@ interface Project {
 const projectData: Project[] = [
   {
     id: 1,
+    name: "Culturally Sensitive Social Robotics for Africa (CSSRA)",
+    description: "A project focused on developing socially aware robotic systems for African contexts.",
+    language: "C++",
+    stars: 0,
+    forks: 0,
+    tags: ["Robotics", "ROS", "Social AI", "Africa"],
+    url: "https://github.com/jimohib/cssr4africa",
+    type: "software"
+  },
+  {
+    id: 2,
     name: "Node Modules",
     description: "Contains core node js modules, their description, and code implementation.",
     language: "JavaScript",
     stars: 0,
     forks: 0,
     tags: ["Node.js", "Backend"],
-    url: "https://github.com/jhmpy/node-modules",
+    url: "https://github.com/jimohib/node-modules",
     type: "software"
   },
   {
@@ -39,8 +50,7 @@ const projectData: Project[] = [
     stars: 0,
     forks: 0,
     tags: ["Deepfake", "Deep learning", "Fraud"],
-    url: "https://github.com/jhmpy/deepfake_voice_detection",
-    demoUrl: "/",
+    url: "https://github.com/jimohib/deepfake_voice_detection",
     type: "software"
   },
   {
@@ -51,7 +61,7 @@ const projectData: Project[] = [
     stars: 0,
     forks: 0,
     tags: ["Deep Learning", "Research", "AI", "Robotics"],
-    url: "https://github.com/jhmpy/idl24_project",
+    url: "https://github.com/jimohib/idl24_project",
     type: "academic"
   },
   {
@@ -62,8 +72,7 @@ const projectData: Project[] = [
     stars: 0,
     forks: 0,
     tags: ["NLP", "Research", "LLM", "Investment", "Financial Literacy"],
-    url: "https://github.com/jhmpy/AI-Investment-Advisor-Capstone",
-    demoUrl: "/",
+    url: "https://github.com/jimohib/AI-Investment-Advisor-Capstone",
     type: "academic"
   },
   // {
@@ -80,13 +89,13 @@ const projectData: Project[] = [
   // },
   {
     id: 7,
-    name: "Synchronizing Multimodal Behaviors of a Robot:The Eva Robot Head",
+    name: "Synchronizing Multimodal Behaviors of a Robot using Eva Robot Head",
     description: "Synchronized a robots multimodal behavior including speech, gesture, facial expression and implemented facial expression recognition and mimicking with neural networks.",
     language: "Python",
     stars: 0,
     forks: 0,
     tags: ["Multimuodal", "Robot Head", "Neural Network"],
-    url: "https://github.com/jhmpy/humanoid_robotics_and_cognition_project",
+    url: "https://github.com/jimohib/humanoid_robotics_and_cognition_project",
     type: "academic"
   },
   // {
@@ -159,7 +168,7 @@ const Projects = () => {
         </div>
         
         <div className="mt-12 text-center animate-fade-in animate-delay-300">
-        <a href="https://github.com/jhmpy?tab=repositories" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/jimohib?tab=repositories" target="_blank" rel="noopener noreferrer">
           <Button 
             variant="outline" 
             className="border-github-accent text-github-accent hover:bg-github-accent/10"

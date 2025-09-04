@@ -1,6 +1,6 @@
 # Welcome to my website
 
-**URL**: https://jhmpy.github.io
+**URL**: https://jimohib.github.io
 
 ## What technologies are used for this project?
 

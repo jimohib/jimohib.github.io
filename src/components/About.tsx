@@ -28,20 +28,19 @@ const About = () => {
             Hi there! Welcome to my website!
           </p>
           <p className="text-lg">
-            I am a Masters student in Artificial Intelligence at Carnegie Mellon University. I am a Robotics enthusiast
-            researcher passionate about creating intelligent systems that can think, move, and interact like humans. 
-            My journey into robotics began with a fascination for the science marvel fiction—yes, Iron Man played a role—but it quickly 
+            I am a Robotics enthusiast and researcher passionate about creating intelligent systems that can think, move, and interact like humans. 
+            My journey into robotics began with a fascination for the science Marvel fiction (yes, Iron Man played a role) but it quickly
             evolved into a deeper curiosity about how machines can learn, adapt, and solve real-world problems.
           </p>
           <p className="text-lg">
-          Currently, I am focused on Human-Robot Interaction (HRI), exploring how robots can understand, collaborate with, and
-          support people in meaningful and culturally aware ways. I've had the opportunity to present my research at international 
-          conferences and work with cutting-edge platforms like ROS and the Pepper robot. I am driven by a belief that robotics 
+          Currently, I am focused on Human Robot Interaction (HRI), exploring how robots can understand, collaborate with, and
+          support people in meaningful and culturally aware ways. I've had the opportunity to present my research at international
+          conferences like IROS and work with cutting edge robot platforms like Robot Operating System (ROS) and the Pepper humanoid robot. I am driven by a belief that robotics
           can be a force for good especially when designed inclusively and thoughtfully.
           </p>
           <p className="text-lg">
-          When I'm not knee-deep in code or research, you'll find me enjoying great conversation, learning something new, 
-          or exploring new corners of the world. I am a ping-pong lover, fascinated by the hand-eye coordination and reflex involved in playing it.
+          When I'm not knee-deep in code or research, you'll find me involved in community services, learning something new, 
+          or playing ping pong. I am an avid ping pong player, fascinated by the hand-eye coordination and reflex involved in playing it.
           </p>
         </div>
         
@@ -49,7 +48,7 @@ const About = () => {
           <Tabs defaultValue="skills" className="w-full">
             <TabsList className="grid grid-cols-4 mb-8">
               <TabsTrigger value="skills">Skills</TabsTrigger>
-              <TabsTrigger value="experience">Experience</TabsTrigger>
+              <TabsTrigger value="experience">Work Experience</TabsTrigger>
               <TabsTrigger value="education">Education</TabsTrigger>
               <TabsTrigger value="research">Research</TabsTrigger>
             </TabsList>
@@ -58,22 +57,22 @@ const About = () => {
                 <SkillCard
                   icon={<Code className="h-5 w-5 text-github-accent" />}
                   title="Language"
-                  skills={['Python, C, C++, C#, Java, JavaScript']}
+                  skills={['Python, C++, C#, Java, JavaScript']}
                 />
                 <SkillCard
                   icon={<Monitor className="h-5 w-5 text-github-accent" />}
-                  title="Frontend"
+                  title="Web Frontend"
                   skills={['HTML, CSS, Bootstrap']}
                 />
                 <SkillCard
                   icon={<Server className="h-5 w-5 text-github-accent" />}
-                  title="Backend"
+                  title="Web Backend"
                   skills={['Python, PHP, C#, Django, .Net']}
                 />
                 <SkillCard
                   icon={<Cpu className="h-5 w-5 text-github-accent" />}
-                  title="AI"
-                  skills={['Pandas, Numpy, Scikit-Learn, Matplotlib, Seaborn, PyTorch, Tensorflow, RAG, Langchain, APIs']}
+                  title="AI and Machine Learning"
+                  skills={['Pandas, Numpy, Scikit-Learn, PyTorch, Tensorflow, RAG, Langchain, APIs']}
                 />
                 <SkillCard
                   icon={<Bot className="h-5 w-5 text-github-accent" />}
@@ -105,36 +104,44 @@ const About = () => {
             <TabsContent value="experience">
               <div className="space-y-4">
                 <ExperienceCard 
-                  title="Data Scientist"
-                  company="Freelance"
-                  period="2024 - Present"
-                  description="Conducting analysis, designing and implementing predictive models and machine learning algorithms with companies data to generate actionable insights."
-                />
-                <ExperienceCard 
-                  title="Data Analyst"
-                  company="Malhub Technologies"
-                  period="Jun 2023 - Dec 2023"
-                  description="Performed statistical analysis using machine learning methods, developed data-driven report and visualizations, and streamlined reporting processes."
-                />
-                <ExperienceCard 
-                  title="Software Engineer (Contract)"
+                  title="Software Engineer Intern"
                   company="Optimus Bank"
                   period="Jan 2023 - Jun 2023"
-                  description="Project lead, designed and developed API for a customer support bot"
+                  description="As project lead, I coordinated project timelines, ensured deliverables were met, and fostered collaboration between development and business units. 
+                  Served in a scrum master role, where I facilitated daily stand-ups, sprint planning, and retrospectives, which led to improved team productivity and task completion rates. 
+                  I also designed and developed APIs using C# and .Net framework for a customer support virtual assistant, enabling seamless integration with the bank’s existing infrastructure and enhancing service efficiency. 
+                  Additionally, I maintained data security and ensured full adherence to industry compliance standards, achieving 100% regulatory compliance with banking security protocols."
+                />
+                <ExperienceCard 
+                  title="IT Engineer Intern"
+                  company="Protogy Global Services Limited"
+                  period="Jan 2022 - Dec 2022"
+                  description="I managed the company’s meter software, overseeing updates, maintenance, and utility performance. 
+                  To improve operations, I developed a Python based entry application for product inventory, which enhanced production and time efficiency by over 60%. 
+                  I also resolved software and hardware issues affecting meters in the pipeline systems. 
+                  During this period, I was recognized as the best performing and most efficient intern in the company."
+                />
+                <ExperienceCard 
+                  title="Hardware and Software Technician"
+                  company="Canaanland Technologies"
+                  period="May 2016 - May 2019"
+                  description="I maintained, troubleshot, and repaired computer systems and devices for both corporate and individual clients. 
+                  In addition, I provided technical support and delivered software solutions tailored to client needs. 
+                  This role also gave me valuable experience in customer relations, enhancing my ability to communicate effectively and support clients."
                 />
               </div>
             </TabsContent>
             <TabsContent value="education">
               <div className="space-y-4">
                 <ExperienceCard 
-                  title="M.S. in Artificial Intelligence"
+                  title="MSc in Engineering Artificial Intelligence"
                   company="Carnegie Mellon University"
                   period="2023 - 2025"
                   description="Specialization in Artificial Intelligence and Robotics."
                 />
                 <ExperienceCard 
-                  title="B.Eng. in Computer Engineering"
-                  company="Federal University of Technology Minna"
+                  title="BEng in Computer Engineering"
+                  company="Federal University of Technology Minna (FUT)"
                   period="2015 - 2021"
                   description="Specialization in Software and Hardware Engineering."
                 />
@@ -143,16 +150,28 @@ const About = () => {
             <TabsContent value="research">
               <div className="space-y-4">
                 <ExperienceCard 
-                  title="Research Assistant | CMU AI Robotics Laboratory"
+                  title="Research Associate | AI Robotics Lab, Carnegie Mellon College of Engineering"
                   company="Culturally Sensitive Social Robotics"
-                  period="2024 - Present"
-                  description="Investigating culturally sensitive robot behaviors through ethnographic research and identifying interaction patterns that are socially and culturally acceptable in Africa as a case study."
+                  period="Jun 2025 - Present"
+                  description="I am working on developing a robot localization ROS software module designed to estimate a Pepper robot's absolute position by triangulation and trilateration using visual landmarks within a known environment, enabling more effective interaction and navigation."
                 />
                 <ExperienceCard 
-                  title="Research Assistant"
-                  company="Computer Vision-based Driver Assistant and Drowsiness Detection System for Road Safety"
-                  period="2021"
-                  description="Investigated the use of computer vision algorithm for developing system to better enhance vehicular road safety and developed a prototype system."
+                  title="Research Assistant | AI Robotics Lab, Carnegie Mellon College of Engineering"
+                  company="Culturally Sensitive Social Robotics"
+                  period="Jun 2024 - May 2025"
+                  description="Investigated culturally sensitive robot behaviors through ethnographic research, focusing on identifying interaction patterns that are socially and culturally acceptable in Africa. 
+                  To operationalize these, I implemented a Behavior Tree Domain-Specific Language (DSL) for modeling human–robot interaction scenarios. 
+                  Additionally, I designed a software module for robot localization that determines the robot’s pose in a Cartesian world frame by integrating relative and absolute position estimation. 
+                  Relative estimation leveraged odometry and the robot’s inertial measurement unit, while absolute estimation is being achieved using visual landmarks."
+                />
+                <ExperienceCard 
+                  title="Research Assistant | Computer Engineering Lab, FUT"
+                  company="Computer Vision Driver Assistant and Detection System for Road Safety"
+                  period="Jan 2021 - Sep 2021"
+                  description="Investigated the use of computer vision algorithms to develop systems aimed at enhancing vehicular road safety. 
+                  As part of this work, I conducted surveys and gathered statistical data on vehicular accident reports to inform system design. 
+                  I subsequently developed an in-vehicle system for detecting driver drowsiness, capable of triggering a sound alarm and transmitting a distress signal containing driver and vehicle information to the nearest road safety authority. 
+                  The system employed a Histogram of Oriented Gradient (HOG) facial predictor in combination with eye aspect ratio analysis for robust eye monitoring and drowsiness detection."
                 />
               </div>
             </TabsContent>

@@ -72,7 +72,10 @@ export default {
 					border: '#E1E1E1',
 					text: '#333333',
 					muted: '#888888',
-				}
+				},
+				'theme-primary': '#33C3F0',
+				'theme-secondary': '#7b61ff', 
+				'theme-accent': '#4ECDC4',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

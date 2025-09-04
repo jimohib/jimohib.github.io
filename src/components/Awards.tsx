@@ -42,21 +42,21 @@ const Awards = () => {
       title: "HRI Conference Grant Award",
       issuer: "Association of Computing Machinery (ACM) SIGAI",
       date: "2025",
-      description: "Attended, participated and presented research at the Human-Robot Interaction conference held in Melbourne, Australia."
+      description: "Grant award to attend and present research work at the Human Robot Interaction conference in Melbourne, Australia, 2025."
     },
     {
       icon: <GraduationCap className="h-6 w-6" />,
-      title: "Masters Degree Scholarship Award",
+      title: "Masters Degree Scholarship",
       issuer: "Mastercard Foundation Scholarship",
       date: "2023",
-      description: "Awarded the mastercard foundation scholarship to pursue a masters degree."
+      description: "Awarded the Mastercard Foundation master degree scholarship. A highly competitive and prestigious scholarship for academically talented students from economically disadvantaged backgrounds."
     },
     {
       icon: <Award className="h-6 w-6" />,
       title: "Recognition Best School Representative",
       issuer: "International Mathematics Olympiad (IMO)",
       date: "2015",
-      description: "Recognised by the school for exemplary performance in the competition."
+      description: "Recognized by my school for exemplary performance in the competition."
     }
   ];
 

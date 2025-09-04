@@ -37,23 +37,23 @@ const Hero = () => {
         </span>
       </h1>
       <p className="text-xl md:text-2xl text-theme-muted max-w-2xl mb-10 animate-fade-in animate-delay-100">
-        AI Engineer and Roboticist
+        Artificial Intelligence and Robotics
       </p>
       <div className="flex flex-col sm:flex-row gap-4 animate-fade-in animate-delay-200">
-        <Button 
+        {/* <Button 
           onClick={scrollToProjects}
           className="bg-theme-primary hover:bg-theme-primary/90 text-white font-medium"
           size="lg"
         >
           View My Projects
-        </Button>
+        </Button> */}
         <a href="/Ibrahim_Jimoh_CV.pdf" target="_blank" rel="noopener noreferrer">
           <Button 
             variant="outline" 
             className="border-theme-border hover:bg-theme-border/10"
             size="lg"
           >
-            Download CV
+            Academic CV
           </Button>
         </a>
       </div>

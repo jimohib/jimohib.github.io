@@ -15,7 +15,7 @@ const Footer = () => {
               <span className="font-bold text-theme-primary">Last Updated</span>
             </div>
             <p className="text-sm text-theme-muted">
-              April, 2025.
+              July, 2025.
             </p>
           </div>
           

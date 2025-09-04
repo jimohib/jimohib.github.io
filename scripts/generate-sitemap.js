@@ -87,7 +87,7 @@ if (!fs.existsSync(publicDir)) {
 
 // Write sitemap.xml
 fs.writeFileSync(path.join(publicDir, "sitemap.xml"), sitemap);
-console.log("✅ Sitemap generated with", allUrls.length, "URLs!");
+console.log("Sitemap generated with", allUrls.length, "URLs!");
 
 // Always (re)write robots.txt
 const robotsPath = path.join(publicDir, "robots.txt");
@@ -97,4 +97,4 @@ Allow: /
 Sitemap: ${baseUrl}/sitemap.xml`;
 
 fs.writeFileSync(robotsPath, robots);
-console.log("✅ robots.txt written successfully!");
+console.log("robots.txt written successfully!");

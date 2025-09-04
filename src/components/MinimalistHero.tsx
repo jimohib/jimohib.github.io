@@ -48,7 +48,7 @@ const MinimalistHero: React.FC = () => {
               {/* Contact Links */}
               <div className="flex flex-col sm:flex-row gap-6 justify-center lg:justify-start items-center">
                 <a
-                  href="/Ibrahim_Jimoh_CV.pdf"
+                  href="Ibrahim_Jimoh_CV.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[rgb(10,93,128)] hover:text-blue-700 font-medium underline underline-offset-4 transition-colors"

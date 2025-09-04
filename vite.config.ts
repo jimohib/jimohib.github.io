@@ -2,6 +2,11 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import { VitePWA } from 'vite-plugin-pwa';
 import path from "path";
+import { fileURLToPath } from 'url';
+
+// Fix for __dirname in ESM
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 export default defineConfig(({ mode }) => ({
   base: "/",
@@ -18,24 +23,25 @@ export default defineConfig(({ mode }) => ({
         name: 'Ibrahim Jimoh - Portfolio',
         short_name: 'Ibrahim Portfolio',
         description: 'AI Engineer and Roboticist Portfolio',
-        theme_color: '#33C3F0',
+        theme_color: '#0a5d80',
         background_color: '#ffffff',
         display: 'standalone',
         icons: [
           {
-            src: '/pwa-192x192.png',
-            sizes: '192x192',
-            type: 'image/png'
+            src: '/favicon.ico',
+            sizes: '64x64 32x32 24x24 16x16',
+            type: 'image/x-icon'
           },
           {
-            src: '/pwa-512x512.png', 
-            sizes: '512x512',
-            type: 'image/png'
+            src: '/favicon.ico',
+            sizes: '192x192',
+            type: 'image/x-icon'
           }
         ]
       },
       workbox: {
-        globPatterns: ['**/*.{js,css,html,ico,png,svg}'] //no jpg
+        globPatterns: ['**/*.{js,css,html,ico,png,svg,jpg,pdf}'], // Added jpg and pdf
+        maximumFileSizeToCacheInBytes: 5000000 // 5MB limit for CV file
       }
     })
   ],

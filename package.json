@@ -3,7 +3,6 @@
   "private": true,
   "version": "2.0.0",
   "type": "module",
-  "homepage": "https://jimohib.github.io/jimohib.github.io",
   "scripts": {
     "dev": "vite",
     "build": "npm run generate-sitemap && vite build",

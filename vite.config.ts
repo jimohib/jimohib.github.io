@@ -22,7 +22,7 @@ export default defineConfig(({ mode }) => ({
       manifest: {
         name: 'Ibrahim Jimoh - Portfolio',
         short_name: 'Ibrahim Portfolio',
-        description: 'AI Engineer and Roboticist Portfolio',
+        description: 'Ibrahim Portfolio Website',
         theme_color: '#0a5d80',
         background_color: '#ffffff',
         display: 'standalone',

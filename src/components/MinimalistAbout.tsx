@@ -49,7 +49,7 @@ const MinimalistAbout: React.FC = () => {
             <motion.div className="prose prose-lg max-w-none" variants={itemVariants}>
               <p className="text-gray-700 leading-relaxed">
                 Hi there! I am a Robotics and AI enthusiast and researcher passionate about creating intelligent systems that can think, move, and interact like humans. 
-                My journey into robotics began with a fascination for the science Marvel fiction (yes, Iron Man played a role) but it quickly
+                My journey into robotics began with a fascination for the science Marvel fiction (yes, Iron Man's Tony Stark played a role) but it quickly
                 evolved into a deeper curiosity about how machines can learn, adapt, and solve real-world problems.
               </p>
               

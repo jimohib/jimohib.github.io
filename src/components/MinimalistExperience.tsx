@@ -60,8 +60,8 @@ const MinimalistExperience: React.FC = () => {
                   culturally sensitive and socially aware robots for African cultural interactions.
                 </p>
                 <p className="text-gray-700 leading-relaxed">
-                  My industry experience includes roles as a Software Engineer Intern at Optimus Bank, Nigeria 
-                  and as an IT Engineer Intern at Protogy Global Services Limited, Nigeria where I 
+                  My industry experience includes roles as a Software Engineer Intern at Optimus Bank Nigeria
+                  and as an IT Engineer Intern at Protogy Global Services Limited Nigeria where I
                   specialized in software development, systems integration, and technical support.
                 </p>
               </div>

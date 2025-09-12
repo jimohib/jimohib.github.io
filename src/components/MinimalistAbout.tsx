@@ -54,7 +54,7 @@ const MinimalistAbout: React.FC = () => {
               </p>
               
               <p className="text-gray-700 leading-relaxed">
-                Currently, my focus lies at the intersection of Artificial Intelligence and Human-Robot Interaction (HRI), exploring how robots and AI systems can understand, collaborate with, and
+                Currently, my focus lies at the intersection of Artificial Intelligence and Human Robot Interaction (HRI), exploring how robots and AI systems can understand, collaborate with, and
                 support people in meaningful and culturally aware ways. I've had the opportunity to present my research at international
                 conferences like IROS and HRI, and to work with cutting edge platforms like Robot Operating System (ROS), vision models, and the Pepper semi-humanoid robot. 
                 I am also engaged in AI safety and alignment, understanding how we can design and deploy intelligent systems responsibly while avoiding the risks therein. I am driven by a belief that AI and robotics

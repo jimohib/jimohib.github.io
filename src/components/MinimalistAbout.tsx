@@ -84,6 +84,7 @@ const MinimalistAbout: React.FC = () => {
 
             {/* Quick Stats */}
             <motion.div variants={itemVariants}>
+ 
               <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
                 <div>
                   <div className="text-2xl font-bold text-[rgb(10,93,128)]">10+</div>

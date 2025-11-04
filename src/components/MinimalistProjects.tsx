@@ -29,16 +29,16 @@ const MinimalistProjects: React.FC = () => {
       link: "https://github.com/cssr4africa/cssr4africa"
     },
     {
-      title: "Deepfake Voice Detection with Deep Learning for Fraud Prevention",
-      description: "Developed a deep learning convolutional neural network model to identify and classify synthetic or manipulated voices in audio streams, aimed at preventing fraud and enhancing security in voice-based authentication systems.",
-      tech: ["Python", "Pytorch", "CNN", "Deep Learning"],
-      link: "https://github.com/jimohib/deepfake_voice_detection"
-    },
-    {
       title: "Deep Reinforcement Learning-Based Mobile Robot Navigation in Social Spaces",
       description: "A deep reinforcement learning framework for mobile robot navigation in dynamic social environments, focusing on safe and efficient path planning.",
       tech: ["Python", "Pytorch", "Reinforcement Learning", "Robotics"],
       link: "https://github.com/jimohib/idl24_project"
+    },
+    {
+      title: "Deepfake Voice Detection with Deep Learning for Fraud Prevention",
+      description: "Developed a deep learning convolutional neural network model to identify and classify synthetic or manipulated voices in audio streams, aimed at preventing fraud and enhancing security in voice-based authentication systems.",
+      tech: ["Python", "Pytorch", "CNN", "Deep Learning"],
+      link: "https://github.com/jimohib/deepfake_voice_detection"
     }
   ];
 

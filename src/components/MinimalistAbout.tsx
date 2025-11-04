@@ -22,8 +22,8 @@ const MinimalistAbout: React.FC = () => {
   const skills = [
     "Machine Learning", "Deep Learning", "Computer Vision", 
     "C++", "C#", "Python", "JavaScript", "ROS", "Gazebo", "PyTorch", "TensorFlow", "Docker", 
-    "Kubernetes", "AWS", "GCP", "RAG", "MySQL", "Git", "GitHub", "Linux", "Human-Robot Interaction",
-    "Cultural AI", "Social Robotics", "Research", "Data Analysis", "Reinforcement Learning", "Leadership"
+    "Kubernetes", "AWS", "GCP", "RAG", "MySQL", "Git", "GitHub", "Linux", "Human-Robot Interaction", "Robot Learning",
+    "Perception","Cultural AI", "Social Robotics", "Research", "Data Analysis", "Reinforcement Learning", "Leadership"
   ];
 
   return (
@@ -48,22 +48,22 @@ const MinimalistAbout: React.FC = () => {
             {/* Bio */}
             <motion.div className="prose prose-lg max-w-none" variants={itemVariants}>
               <p className="text-gray-700 leading-relaxed">
-                Hi there! I am a Robotics and AI enthusiast and researcher passionate about creating intelligent systems that can think, move, and interact like humans. 
-                My journey into robotics began with a fascination for the science Marvel fiction (yes, Iron Man's Tony Stark played a role) but it quickly
+                Hi there! I am a Robotics and AI engineer and researcher passionate about creating intelligent systems that can think, move, and interact like humans. 
+                My journey into robotics began with a fascination for the science Marvel fiction (yes! Iron Man's Tony Stark played a role) but it quickly
                 evolved into a deeper curiosity about how machines can learn, adapt, and solve real-world problems.
               </p>
               
               <p className="text-gray-700 leading-relaxed">
-                Currently, my focus lies at the intersection of Artificial Intelligence and Human Robot Interaction (HRI), exploring how robots and AI systems can understand, collaborate with, and
+                Currently, my research lies at the intersection of artificial intelligence and human-robot interaction (HRI), exploring how robots and AI systems can understand, collaborate with, and
                 support people in meaningful and culturally aware ways. I've had the opportunity to present my research at international
-                conferences like IROS and HRI, and to work with cutting edge platforms like Robot Operating System (ROS), vision models, and the Pepper semi-humanoid robot. 
+                conferences like IROS and HRI, and to work with cutting-edge platforms including robot operating system (ROS), vision models, and semi-humanoid robots.
                 I am also engaged in AI safety and alignment, understanding how we can design and deploy intelligent systems responsibly while avoiding the risks therein. I am driven by a belief that AI and robotics
                 can be a force for good especially when designed inclusively, responsibly, and thoughtfully.
               </p>
               
               <p className="text-gray-700 leading-relaxed">
-                When I'm not knee-deep in code or research, you'll find me involved in community services, learning something new, 
-          or playing ping pong. I am an avid ping pong player, fascinated by the hand-eye coordination and reflex involved in playing it.
+                When I'm not knee-deep in code or research, you'll find me learning something new, involved in community work,  
+          or playing ping pong. I am an avid ping pong player, especially fascinated by the hand-eye coordination and reflex involved in playing it.
               </p>
             </motion.div>
 

@@ -50,7 +50,7 @@ const MinimalistAwards: React.FC = () => {
       title: "Recognition Best School Representative",
       issuer: "International Mathematics Olympiad (IMO)",
       year: "2015",
-      description: "Recognized by my school for exemplary performance in the competition."
+      description: "Recognized for exemplary performance."
     }
   ];
 

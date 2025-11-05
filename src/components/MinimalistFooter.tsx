@@ -44,7 +44,8 @@ const MinimalistFooter: React.FC = () => {
           
           {/* Copyright */}
           <div className="text-center text-sm text-gray-500">
-            <p>© {currentYear} Ibrahim Jimoh. All rights reserved. Last updated: July {currentYear}</p>
+            <p>© {currentYear} Ibrahim Jimoh. All rights reserved.</p>
+            <p>Last updated: July 2025</p>
           </div>
         </div>
       </div>

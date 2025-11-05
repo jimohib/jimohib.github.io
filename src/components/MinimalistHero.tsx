@@ -10,7 +10,7 @@ const MinimalistHero: React.FC = () => {
             <div className="flex-shrink-0 order-1 lg:order-2">
               <div className="w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-2 border-gray-200">
                 <img
-                  src="/photo1.jpg"
+                  src="/photoi.jpg"
                   alt="Ibrahim"
                   className="w-full h-full object-cover object-center"
                 />
@@ -33,7 +33,7 @@ const MinimalistHero: React.FC = () => {
                 
                 <div className="space-y-2">
                   <p className="text-xl md:text-2xl text-gray-600">
-                    Research associate | AI & Robotics
+                    Research Associate - AI & Robotics
                   </p>
                   <p className="text-lg md:text-xl text-gray-500">
                     Current affiliation: Carnegie Mellon University

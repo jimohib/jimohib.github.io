@@ -48,7 +48,7 @@ const MinimalistAbout: React.FC = () => {
             {/* Bio */}
             <motion.div className="prose prose-lg max-w-none" variants={itemVariants}>
               <p className="text-gray-700 leading-relaxed">
-                Hi there! I am a Robotics and AI engineer and researcher passionate about creating intelligent systems that can think, move, and interact like humans. 
+                Hi there! I am a Robotics and AI researcher and engineer passionate about creating intelligent systems that can think, move, and interact like humans. 
                 My journey into robotics began with a fascination for the science Marvel fiction (yes! Iron Man's Tony Stark played a role) but it quickly
                 evolved into a deeper curiosity about how machines can learn, adapt, and solve real-world problems.
               </p>

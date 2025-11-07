@@ -20,7 +20,7 @@ const MinimalistAbout: React.FC = () => {
   };
 
   const skills = [
-    "Machine Learning", "Deep Learning", "Computer Vision", 
+    "Machine Learning", "Deep Learning", "Neural Networks", "Computer Vision", 
     "C++", "C#", "Python", "JavaScript", "ROS", "Gazebo", "PyTorch", "TensorFlow", "Docker", 
     "Kubernetes", "AWS", "GCP", "RAG", "MySQL", "Git", "GitHub", "Linux", "Human-Robot Interaction", "Robot Learning",
     "Perception","Cultural AI", "Social Robotics", "Research", "Data Analysis", "Reinforcement Learning", "Leadership"
@@ -50,20 +50,15 @@ const MinimalistAbout: React.FC = () => {
               <p className="text-gray-700 leading-relaxed">
                 Hi there! I am a Robotics and AI researcher and engineer passionate about creating intelligent systems that can think, move, and interact like humans. 
                 My journey into robotics began with a fascination for the science Marvel fiction (yes! Iron Man's Tony Stark played a role) but it quickly
-                evolved into a deeper curiosity about how machines can learn, adapt, and solve real-world problems.
-              </p>
-              
-              <p className="text-gray-700 leading-relaxed">
-                Currently, my research focus lies at the intersection of artificial intelligence and human-robot interaction, exploring how robots and AI systems can understand, collaborate with, and
+                evolved into a deeper curiosity about how machines can learn, adapt, and solve real-world problems. Currently, my research focus lies at the intersection 
+                of artificial intelligence and human-robot interaction, exploring how robots and AI systems can understand, collaborate with, and
                 support people in meaningful and culturally aware ways. I've had the opportunity to present my research at international
                 conferences, and to work with cutting-edge platforms including robot operating system, vision models, and semi-humanoid robots.
-                I am also engaged in AI safety and alignment, understanding how we can design and deploy intelligent systems responsibly while avoiding the risks therein. I am driven by a belief that AI and robotics
-                can be a force for good especially when designed inclusively, responsibly, and thoughtfully.
-              </p>
-              
-              <p className="text-gray-700 leading-relaxed">
-                When I'm not knee-deep in code or research, you'll find me learning something new, involved in community work,  
-          or playing ping pong. I am an avid ping pong player, especially fascinated by the hand-eye coordination and reflex involved in playing it.
+                I am also engaged in AI safety and alignment, understanding how we can design and deploy intelligent systems responsibly while avoiding the risks therein. 
+                I am driven by a belief that AI and robotics can be a force for good especially when designed inclusively, responsibly, and thoughtfully. I also believe 
+                that the future of robotics lies in creating systems that are not only intelligent but also empathetic and culturally aware. When I'm not immersed in code 
+                or research, you'll find me learning something new, involved in community work, or playing ping pong. I am an avid ping pong player, especially fascinated 
+                by the hand-eye coordination and reflex involved in playing it.
               </p>
             </motion.div>
 

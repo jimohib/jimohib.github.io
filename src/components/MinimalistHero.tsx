@@ -57,7 +57,7 @@ const MinimalistHero: React.FC = () => {
                 </a>
 
                 <span className="text-gray-600 font-medium">
-                  Email: ibjhmoh[at]gmail[dot]com, ioj[at]andrew[dot]cmu[dot]edu
+                  Email: ibjhmoh@gmail.com, ioj@andrew.cmu.edu
                 </span>
               </div>
             </div>

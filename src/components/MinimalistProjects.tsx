@@ -25,7 +25,7 @@ const MinimalistProjects: React.FC = () => {
     {
       title: "Culturally Sensitive Social Robotics for Africa (CSSRA)",
       description: "A project I am involved in focused on developing socially aware robotic systems for African contexts. It aims to equip robots with the ability to interact sensitively and appropriately with people from diverse cultural backgrounds.",
-      tech: ["C++", "ROS", "Behavior Trees", "Robot Localization"],
+      tech: ["C", "C++", "ROS", "Behavior Trees", "Robot Localization"],
       link: "https://github.com/cssr4africa/cssr4africa"
     },
     {
